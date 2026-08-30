@@ -10,6 +10,7 @@ services:
 
     env_file:
       - ${HOME}/env/next-yamal-site/.env.production
+      - ${HOME}/env/next-yamal-site/.env.local
 
     environment:
       HOSTNAME: "0.0.0.0"
@@ -46,6 +47,7 @@ services:
 
     env_file:
       - ${HOME}/env/next-yamal-site/.env.production
+      - ${HOME}/env/next-yamal-site/.env.local
 
     ports:
       - "127.0.0.1:6544:5432"
